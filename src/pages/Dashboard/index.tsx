@@ -100,8 +100,7 @@ const Dashboard: React.FC = () => {
                     <td className="income">{transaction.formattedValue}</td>
                   ) : (
                     <td className="outcome">
-                      &minus;&nbsp;
-                      {transaction.formattedValue}
+                      - {transaction.formattedValue}
                     </td>
                   )}
 
